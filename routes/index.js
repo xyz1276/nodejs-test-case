@@ -24,20 +24,6 @@ router.get( '/login', function( req, res ) {
     } );
 } );
 
-//create user
-router.post( '/create', function( req, res ) {
-    var user = new User( {
-        name: req.body.name,
-        password: req.body.password
-    } );
-    user.save( function( err ) {
-        if ( err ) {
-            return console.log( err );
-        }
-        res.status( 200 );
-    } );
-} );
-
 router.use( function( req, res, next ) {
 
     // check header or url parameters or post parameters for token
