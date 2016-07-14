@@ -1,0 +1,5 @@
+{
+    "mongoURI": "mongodb://localhost/oneuphigherexamplenode",
+    "secret": "thisisasecret",
+    "stripeApiKey": "sk_test_zsI05TjCLxwxJjbdO7nutan0"
+}
