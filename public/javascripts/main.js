@@ -18,10 +18,10 @@ $(document).ready(function() {
       },
       data: JSON.stringify({
         card: {
-          number: $('.card-number').val(),
-          cvc: $('.card-cvc').val(),
-          exp_month: $('.card-expiry-month').val(),
-          exp_year: $('.card-expiry-year').val()
+          number: $('#cardnumber').val(),
+          cvc: $('#card-cvc').val(),
+          exp_month: $('#card-expiry-month').val(),
+          exp_year: $('#card-expiry-year').val()
         },
         charge: {
           amount: $('#amount').val(),
